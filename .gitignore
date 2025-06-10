@@ -1,0 +1,54 @@
+# File .gitignore untuk project Bakery Shop
+
+# Frontend frameworks
+.cache/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dll/
+
+# Umum
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Dependencies
+node_modules/
+bower_components/
+jspm_packages/
+.pnp/
+
+# Cache
+.npm
+.eslintcache
+.yarn-integrity
+
+# Build folders
+dist/
+build/
+out/
+.next/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+.nyc_output/
+
+# Sistem operasi
+ehthumbs.db
+[Tt]humbs.db
